@@ -2,7 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      transitionTimingFunction: {
+        "in-expo": "cubic-bezier(0.1, 2.7, 0.98, 1)",
+        "out-expo": "cubic-bezier(0.19, 1, 0.22, 1)",
+      },
+    },
   },
   plugins: [],
 };
