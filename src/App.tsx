@@ -20,7 +20,7 @@ const App = () => {
             id="inDiv"
             className="ease-in-expo size-full rounded-3xl border-2 bg-white/20 border-black flex justify-center items-center group transition-all duration-500 hover:border-green-500 hover:backdrop-blur hover:bg-gradient-to-tr from-indigo-500/50 via-cyan-700/50 to-pink-500/50 hover:border-8"
           >
-            <p className="group-hover:custom-shadow text-4xl sm:text-5xl md:text-6xl lg:text-6xl group-hover:text-6xl md:group-hover:text-7xl group-hover:text-gray-200 group-hover:[text-shadow:6px_4px_4px_rgba(0,0,0,0.7)] transition-all duration-500">
+            <p className="ease-in-expo group-hover:custom-shadow text-4xl sm:text-5xl md:text-6xl lg:text-6xl group-hover:text-6xl md:group-hover:text-7xl group-hover:text-gray-200 group-hover:[text-shadow:6px_4px_4px_rgba(0,0,0,0.7)] transition-all duration-500">
               Row 1
             </p>
           </div>
@@ -54,7 +54,7 @@ const App = () => {
         >
           <div
             id="inDiv"
-            className="ease-in-expo size-full rounded-3xl border-2 bg-white/20 border-black flex justify-center items-center transition-all duration-500 flex-[1] group hover:flex-[2] hover:border-green-500 hover:backdrop-blur hover:bg-gradient-to-tr from-indigo-500/50 via-cyan-700/50 to-pink-500/50 hover:border-8"
+            className="ease-out-expo size-full rounded-3xl border-2 bg-white/20 border-black flex justify-center items-center transition-all duration-500 flex-[1] group hover:flex-[2] hover:border-green-500 hover:backdrop-blur hover:bg-gradient-to-tr from-indigo-500/50 via-cyan-700/50 to-pink-500/50 hover:border-8"
           >
             <p className="group-hover:custom-shadow text-2xl sm:text-3xl md:text-4xl lg:text-6xl group-hover:text-5xl group-hover:text-gray-200 group-hover:[text-shadow:6px_4px_4px_rgba(0,0,0,0.7)] lg:group-hover:text-7xl transition-all duration-500">
               Row 3
@@ -62,7 +62,7 @@ const App = () => {
           </div>
           <div
             id="inDiv"
-            className="ease-in-expo size-full rounded-3xl border-2 bg-white/20 border-black flex justify-center items-center transition-all duration-500 flex-[1] group hover:flex-[2] hover:border-green-500 hover:backdrop-blur hover:bg-gradient-to-tr from-indigo-500/50 via-cyan-700/50 to-pink-500/50 hover:border-8"
+            className="ease-out-expo size-full rounded-3xl border-2 bg-white/20 border-black flex justify-center items-center transition-all duration-500 flex-[1] group hover:flex-[2] hover:border-green-500 hover:backdrop-blur hover:bg-gradient-to-tr from-indigo-500/50 via-cyan-700/50 to-pink-500/50 hover:border-8"
           >
             <p className="group-hover:custom-shadow text-2xl sm:text-3xl md:text-4xl lg:text-6xl group-hover:text-5xl group-hover:text-gray-200 group-hover:[text-shadow:6px_4px_4px_rgba(0,0,0,0.7)] lg:group-hover:text-7xl transition-all duration-500">
               Row 3
@@ -70,7 +70,7 @@ const App = () => {
           </div>
           <div
             id="inDiv"
-            className="ease-in-expo size-full rounded-3xl border-2 bg-white/20 border-black flex justify-center items-center transition-all duration-500 flex-[1] group hover:flex-[2] hover:border-green-500 hover:backdrop-blur hover:bg-gradient-to-tr from-indigo-500/50 via-cyan-700/50 to-pink-500/50 hover:border-8"
+            className="ease-out-expo size-full rounded-3xl border-2 bg-white/20 border-black flex justify-center items-center transition-all duration-500 flex-[1] group hover:flex-[2] hover:border-green-500 hover:backdrop-blur hover:bg-gradient-to-tr from-indigo-500/50 via-cyan-700/50 to-pink-500/50 hover:border-8"
           >
             <p className="group-hover:custom-shadow text-2xl sm:text-3xl md:text-4xl lg:text-6xl group-hover:text-5xl group-hover:text-gray-200 group-hover:[text-shadow:6px_6px_4px_rgba(0,0,0,0.7)] lg:group-hover:text-7xl transition-all duration-500">
               Row 3
