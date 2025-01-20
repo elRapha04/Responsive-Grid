@@ -4,9 +4,9 @@ const App = () => {
   return (
     <div
       id="full-window"
-      className="w-full h-screen bg-cover bg-no-repeat flex flex-col justify-center items-center bg-gradient-to-bl from-yellow-400 via-pink to-purple-500"
+      className="absolute inset-0 p-4 w-full h-full bg-cover bg-no-repeat flex flex-col justify-center items-center bg-gradient-to-bl from-yellow-400 via-pink to-purple-500"
     >
-      <h1 className="font-sans font-mono font-semibold italic text-2xl sm:text-3xl md:text-4xl lg:text-6xl mb-10">
+      <h1 className="font-sans font-mono font-semibold italic text-2xl sm:text-3xl md:text-4xl mb-10">
         Beginner Programming Activity: Build a Creative Grid with React and
         Tailwind CSS!
       </h1>
